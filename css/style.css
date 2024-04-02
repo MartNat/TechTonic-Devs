@@ -720,8 +720,9 @@ a:focus {
 }
 
 .team_section .team_container .box .img-box img {
-  width: 120px;
-  border-radius: 100%;
+  width: 120px; /* keep the same image size */
+  height: 120px; /* keep the same image size */
+  border-radius: 50%; /* make the image circular */
   border: 5px solid #ffffff;
 }
 
